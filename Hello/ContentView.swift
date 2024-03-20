@@ -13,7 +13,10 @@ struct ContentView: View {
     var body: some View {
        
       //Mark -1.Basic
-        AsyncImage(url:URL(string: imageUrl))
+       // AsyncImage(url:URL(string: imageUrl))
+        
+        //Mark 2.scale
+        AsyncImage(url:URL(string: imageUrl),scale: 3.0)
     }
 }
 
